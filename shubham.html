@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head><title>Function program</title>
+    <script language="javascript">
+        function add()
+        {
+        var a,b,c;
+        a=f1.n1.value;
+        b=f1.n2.value;
+        c=a*1+b*1;
+        alert("ADDITION:"+c);
+        }
+        function sub()
+        {
+            var a,b,c;
+            a=f1.n1.value;
+        b=f1.n2.value;
+        c=a-b;
+        alert("SUBTRACTION:"+c);
+     }
+     function multi()
+     {
+         var a,b,c;
+         a=f1.n1.value;
+        b=f1.n2.value;
+        c=a*b;
+        alert("MULTIPLY:"+c);
+     }
+     function div()
+     {
+         var a,b,c;
+         a=f1.n1.value;
+        b=f1.n2.value;
+        c=a/b;
+        alert("DIVISION:"+c);
+     }
+     function string()
+            {
+            var a;
+            a=f1.n1.value;
+            alert("string length is:"+a.length);
+            }
+    
+     
+        </script>
+</head>
+<body bgcolor="lightblue" text="red">
+<h1> CALCULATE USING "USER DEFINE FUNCTION"</h1>
+<H2>
+<CENTER>
+    
+<form name="f1">
+    Enter value of A<input type="number" name="n1">
+    <br><BR>
+    Enter value of B<input type="number" name="n2">
+    <br>
+    <br>
+    <input type="button" value="ADD"onClick="add();">
+    <input type="button" value="SUBTRACTION"onClick="sub();">
+    <input type="button" value="MULTIPLY"onClick="multi();">
+    <input type="button" value="DIVISON"onClick="div();">
+    <input type="button" value="LENGTH"onClick="string();"                         >
+</form>
+</CENTER>
+</H2>
+ </body>
+</html>
